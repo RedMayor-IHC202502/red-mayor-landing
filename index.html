@@ -1,238 +1,403 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Red Mayor - Conectando Generaciones</title>
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
 
-<body>
-
-<header class="main-header">
-    <div class="container">
+  <body>
+    <header class="main-header">
+      <div class="container">
         <nav class="main-nav">
+          <a href="#inicio" class="nav-logo">
+            <img
+              src="assets/images/logo-red-mayor.png"
+              alt="Logo Red Mayor"
+              height="40"
+            />
+          </a>
 
-            <a href="" class="nav-logo">
-                <img src="assets/images/logo-red-mayor.png" alt="Logo Red Mayor" height="40">
-            </a>
+          <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
 
-            <ul class="nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#about">Producto</a></li>
-                <li><a href="#features">Funcionalidades</a></li>
-                <li><a href="#team">Equipo</a></li>
-                <li><a href="#contact">Contáctanos</a></li> </ul>
+          <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#about">Producto</a></li>
+            <li><a href="#features">Funcionalidades</a></li>
+            <li><a href="#benefits">Beneficios</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#team">Equipo</a></li>
+            <li><a href="#contact">Contáctanos</a></li>
+          </ul>
 
-            <div class="nav-buttons">
-                <a href="" class="btn btn-secondary">Ingresar</a>
-                <a href="" class="btn btn-primary">Registrarse</a>
-            </div>
-
+          <div class="nav-buttons">
+            <a href="#" class="btn btn-secondary">Ingresar</a>
+            <a href="#" class="btn btn-primary">Registrarse</a>
+          </div>
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
-
-<!--Inicio-->
     <section id="inicio" class="seccion-inicio">
-        <div class="container seccion-inicio-flex">
-
-            <div class="inicio-texto">
-                <h1>RED MAYOR</h1>
-                <h2>Conectando familias, salud y comunidad para el bienestar del adulto mayor.</h2>
-                <p>
-                    Nuestra misión es transmitir la solidez, la unión y la confianza de una red fuerte y conectada.
-                    Reforzamos la idea de conexión, liderazgo y seguridad en la comunicación.
-                </p>
-                <a href="#about" class="btn btn-principal-rojo">Conoce Más</a>
-            </div>
-
-            <div class="inicio-imagen">
-                <img src="assets/images/imagen-inicio.webp">
-            </div>
-
+      <div class="container seccion-inicio-flex">
+        <div class="inicio-texto">
+          <h1>RED MAYOR</h1>
+          <h2>
+            Conectando familias, salud y comunidad para el bienestar del adulto
+            mayor.
+          </h2>
+          <p>
+            Nuestra misión es transmitir la solidez, la unión y la confianza de
+            una red fuerte y conectada. Reforzamos la idea de conexión,
+            liderazgo y seguridad en la comunicación.
+          </p>
+          <a href="#about" class="btn btn-principal-rojo">Conoce Más</a>
         </div>
+
+        <div class="inicio-imagen">
+          <img
+            src="assets/images/imagen-inicio.webp"
+            alt="Adulto mayor usando app Red Mayor"
+          />
+        </div>
+      </div>
     </section>
 
-<!--Producto-->
-<section id="about" class="seccion-producto">
-    <div class="container seccion-producto-flex">
-
+    <section id="about" class="seccion-producto">
+      <div class="container seccion-producto-flex">
         <div class="producto-texto">
-            <h2>Sobre Nuestro Producto</h2>
-            <p>
-                “Red Mayor” es una aplicación móvil diseñada para mejorar la atención integral del adulto mayor mediante la intersectorialidad.
-            </p>
-            <p>
-                Su propósito es conectar en un mismo espacio digital a los principales actores sociales: familia, sector salud, programas gubernamentales, comunidad y voluntariado, facilitando el acceso a servicios, el acompañamiento y la participación activa de los adultos mayores.
-            </p>
+          <h2>Sobre Nuestro Producto</h2>
+          <p>
+            “Red Mayor” es una aplicación móvil diseñada para mejorar la
+            atención integral del adulto mayor mediante la intersectorialidad.
+          </p>
+          <p>
+            Su propósito es conectar en un mismo espacio digital a los
+            principales actores sociales: familia, sector salud, programas
+            gubernamentales, comunidad y voluntariado, facilitando el acceso a
+            servicios, el acompañamiento y la participación activa de los
+            adultos mayores.
+          </p>
         </div>
 
         <div class="producto-imagen">
-           <img src="assets/images/imagen-producto.png">
+          <img
+            src="assets/images/imagen-producto.png"
+            alt="Pantallas de la aplicación Red Mayor"
+          />
         </div>
+      </div>
+    </section>
 
-    </div>
-</section>
-
-<!--Funcionalidades-->
-<section id="features" class="seccion-features">
-    <div class="container">
-
+    <section id="features" class="seccion-features">
+      <div class="container">
         <h2>Funcionalidades Clave</h2>
-
         <div class="features-grid">
-
-            <div class="feature-card">
-                <h3>Agenda de Citas</h3>
-                <p>
-                    Permite a los usuarios agendar y gestionar sus consultas médicas y teleconsultas directamente desde la app.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <h3>Recordatorios de Salud</h3>
-                <p>
-                    Envía notificaciones y recordatorios para la toma de medicamentos, asegurando el seguimiento del tratamiento.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <h3>Talleres y Comunidad</h3>
-                <p>
-                    Conecta a los usuarios con talleres virtuales, actividades recreativas y una red de voluntariado y apoyo.
-                </p>
-            </div>
-
+          <div class="feature-card">
+            <h3>Agenda de Citas</h3>
+            <p>
+              Permite a los usuarios agendar y gestionar sus consultas médicas y
+              teleconsultas directamente desde la app.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Recordatorios de Salud</h3>
+            <p>
+              Envía notificaciones y recordatorios para la toma de medicamentos,
+              asegurando el seguimiento del tratamiento.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Talleres y Comunidad</h3>
+            <p>
+              Conecta a los usuarios con talleres virtuales, actividades
+              recreativas y una red de voluntariado y apoyo.
+            </p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!--Nosotros-->
-<section id="team" class="seccion-equipo">
-    <div class="container">
+    <section id="benefits" class="seccion-beneficios">
+      <div class="container">
+        <h2>¿Por Qué Elegir Red Mayor?</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <i class="icon-emergency"></i>
+            <h3>Botón de Emergencia</h3>
+            <p>
+              Recibe ayuda inmediata y envía alertas a tus contactos de
+              confianza en segundos.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <i class="icon-history"></i>
+            <h3>Historial Centralizado</h3>
+            <p>
+              Accede a diagnósticos, citas y medicamentos anteriores para un
+              mejor seguimiento médico.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <i class="icon-chat"></i>
+            <h3>Soporte Médico Directo</h3>
+            <p>
+              Comunícate por chat con profesionales de salud para resolver dudas
+              rápidamente.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <i class="icon-accessibility"></i>
+            <h3>Modo Accesible</h3>
+            <p>
+              Ajusta el tamaño del texto y el contraste para una navegación
+              cómoda y sin esfuerzo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="testimonials" class="seccion-testimonios">
+      <div class="container">
+        <h2>Lo que Dicen Nuestros Usuarios</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <img
+              src="assets/images/img_abuela.jpg"
+              alt="Testimonio de adulto mayor"
+              class="testimonial-photo"
+            />
+            <p class="testimonial-text">
+              "Gracias a los recordatorios, mi abuela no olvida sus dosis. La
+              función de acompañamiento es una tranquilidad."
+            </p>
+            <p class="testimonial-author">Ana L., Cuidadora Familiar</p>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="assets/images/img_abuelo.jpg"
+              alt="Testimonio de familiar"
+              class="testimonial-photo"
+            />
+            <p class="testimonial-text">
+              "La interfaz es muy clara y el modo voz me ayuda mucho, ya que
+              tengo problemas de visión. ¡Excelente apoyo!"
+            </p>
+            <p class="testimonial-author">Don Roberto P., Adulto Mayor</p>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="assets/images/pedriatra.jpg"
+              alt="Testimonio de profesional"
+              class="testimonial-photo"
+            />
+            <p class="testimonial-text">
+              "Como profesional, tener acceso rápido al historial clínico y
+              enviar alertas me permite actuar con mayor eficiencia."
+            </p>
+            <p class="testimonial-author">Dr. Camilo N., Médico Geriatra</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="seccion-equipo">
+      <div class="container">
         <h2>Nuestro Equipo</h2>
-
         <div class="equipo-grid">
-
-            <div class="equipo-card">
-                <img src="assets/images/Rodrigo_Solano.png" alt="Foto de Rodrigo Solano Rondinel">
-                <h3>Rodrigo Solano Rondinel</h3>
-                <span class="equipo-role">Estudiante de Ing. de Software</span>
-            </div>
-
-            <div class="equipo-card">
-                <img src="assets/images/Pablo_Martinez.png" alt="Foto de Pablo Martinez Gaona">
-                <h3>Pablo Martinez Gaona</h3>
-                <span class="equipo-role">Estudiante de Ing. de Software</span>
-            </div>
-
-            <div class="equipo-card">
-                <img src="assets/images/Yobar_Jara.png" alt="Foto de Yobar Jhonatan Jara Jimenez">
-                <h3>Yobar Jhonatan Jara Jimenez</h3>
-                <span class="equipo-role">Estudiante de Ing. de Software</span>
-            </div>
-
-            <div class="equipo-card">
-                <img src="assets/images/Isabel_Sequeiros.png" alt="Foto de Isabel Angelica Sequeiros Torrejon">
-                <h3>Isabel A. Sequeiros Torrejon</h3>
-                <span class="equipo-role">Estudiante de Ing. de Software</span>
-            </div>
-
-            <div class="equipo-card">
-                <img src="assets/images/Julio_Vasco.png" alt="Foto de Julio Enrique Vasco de la cruz">
-                <h3>Julio E. Vasco de la cruz</h3>
-                <span class="equipo-role">Estudiante de Ing. de Sistemas</span>
-            </div>
-
+          <div class="equipo-card">
+            <img
+              src="assets/images/Rodrigo_Solano.png"
+              alt="Foto de Rodrigo Solano Rondinel"
+            />
+            <h3>Rodrigo Solano Rondinel</h3>
+            <span class="equipo-role">Estudiante de Ing. de Software</span>
+          </div>
+          <div class="equipo-card">
+            <img
+              src="assets/images/Pablo_Martinez.png"
+              alt="Foto de Pablo Martinez Gaona"
+            />
+            <h3>Pablo Martinez Gaona</h3>
+            <span class="equipo-role">Estudiante de Ing. de Software</span>
+          </div>
+          <div class="equipo-card">
+            <img
+              src="assets/images/Yobar_Jara.png"
+              alt="Foto de Yobar Jhonatan Jara Jimenez"
+            />
+            <h3>Yobar Jhonatan Jara Jimenez</h3>
+            <span class="equipo-role">Estudiante de Ing. de Software</span>
+          </div>
+          <div class="equipo-card">
+            <img
+              src="assets/images/Isabel_Sequeiros.png"
+              alt="Foto de Isabel Angelica Sequeiros Torrejon"
+            />
+            <h3>Isabel A. Sequeiros Torrejon</h3>
+            <span class="equipo-role">Estudiante de Ing. de Software</span>
+          </div>
+          <div class="equipo-card">
+            <img
+              src="assets/images/Julio_Vasco.png"
+              alt="Foto de Julio Enrique Vasco de la cruz"
+            />
+            <h3>Julio E. Vasco de la cruz</h3>
+            <span class="equipo-role">Estudiante de Ing. de Sistemas</span>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!--Contacto-->
-<section id="contact" class="seccion-formulario">
-    <div class="container">
+    <section id="download" class="seccion-descarga">
+      <div class="container">
+        <h2>Descarga Red Mayor Hoy</h2>
+        <p>Disponible para iOS y Android. Únete a nuestra red de bienestar.</p>
+        <div class="download-buttons-wrapper">
+          <a
+            href="#"
+            class="btn-download-app btn-principal-rojo"
+            target="_blank"
+          >
+            <img
+              src="assets/images/logotipo-de-apple.png"
+              alt="App Store Icon"
+              class="app-icon"
+            />
+            App Store
+          </a>
+          <a
+            href="#"
+            class="btn-download-app btn-principal-rojo"
+            target="_blank"
+          >
+            <img
+              src="assets/images/google-play.png"
+              alt="Google Play Icon"
+              class="app-icon"
+            />
+            Google Play
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <section id="contact" class="seccion-formulario">
+      <div class="container">
         <h2>Contáctanos</h2>
         <p>¿Tienes dudas? Completa el formulario y te responderemos.</p>
 
         <form class="formulario-contacto">
+          <div class="campo">
+            <label for="nombre">Nombres y Apellidos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre completo"
+              required
+            />
+          </div>
 
-            <div class="campo">
-                <label for="nombre">Nombres y Apellidos:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
-            </div>
+          <div class="campo">
+            <label for="email">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingresa tu correo"
+              required
+            />
+          </div>
 
-            <div class="campo">
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
-            </div>
+          <div class="campo">
+            <label for="asunto">Asunto:</label>
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="Motivo de tu consulta"
+              required
+            />
+          </div>
 
-            <div class="campo">
-                <label for="asunto">Asunto:</label>
-                <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu consulta">
-            </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="Escribe tu mensaje aquí..."
+              required
+            ></textarea>
+          </div>
 
-            <div class="campo">
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-principal-rojo">Enviar Mensaje</button>
+          <button type="submit" class="btn btn-principal-rojo">
+            Enviar Mensaje
+          </button>
         </form>
+      </div>
+    </section>
 
-    </div>
-</section>
-
-<!--Footer-->
-<section id="footer">
     <footer class="footer">
-        <div class="container footer-container">
-
-            <div class="footer-brand">
-                <img
-                        src="assets/images/logo-red-mayor.png"
-                        alt="Logo Red Mayor"
-                        class="footer-logo"
-                />
-                <p>RED MAYOR</p>
-                <small>© 2025 Todos los derechos reservados.</small>
-            </div>
-
-            <div class="footer-links">
-                <h4>Legal</h4>
-                <a href="#">Política de Privacidad</a>
-                <a href="#">Términos y Condiciones</a>
-                <a href="assets/documents/LeyProteccionDatos.pdf" target="_blank">Protección de Datos</a>
-            </div>
-
-            <div class="footer-social">
-                <h4>Síguenos</h4>
-                <a href="#">
-                    <img
-                            src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
-                            alt="Facebook"
-                            class="social-icon"
-                    /></a>
-                <a href="#">
-                    <img
-                            src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
-                            alt="Instagram"
-                            class="social-icon"
-                    /></a>
-                <a href="#">
-                    <img
-                            src="https://cdn-icons-png.flaticon.com/512/145/145803.png"
-                            alt="WhatsApp"
-                            class="social-icon"
-                    /></a>
-            </div>
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <img
+            src="assets/images/logo-red-mayor.png"
+            alt="Logo Red Mayor"
+            class="footer-logo"
+          />
+          <p>RED MAYOR</p>
+          <small>© 2025 Todos los derechos reservados.</small>
         </div>
-    </footer>
-</section>
 
-</body>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="assets/documents/LeyProteccionDatos.pdf" target="_blank"
+            >Protección de Datos</a
+          >
+        </div>
+
+        <div class="footer-accessibility">
+          <h4>Accesibilidad</h4>
+          <button id="toggle-contrast" class="btn-accessibility">
+            Alto Contraste
+          </button>
+          <button id="toggle-text-size" class="btn-accessibility">
+            Aumentar Texto
+          </button>
+        </div>
+
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#" aria-label="Facebook">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+              alt="Facebook"
+              class="social-icon"
+          /></a>
+          <a href="#" aria-label="Instagram">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+              alt="Instagram"
+              class="social-icon"
+          /></a>
+          <a href="#" aria-label="WhatsApp">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/145/145803.png"
+              alt="WhatsApp"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
