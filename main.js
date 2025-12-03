@@ -68,4 +68,62 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+  window.openModal = function (id) {
+return;
+}
+
+
+const mensaje = new SpeechSynthesisUtterance(
+"Bienvenido a Red Mayor. Puedes agendar citas, ver campañas de salud y solicitar acompañamiento."
+);
+mensaje.lang = "es-ES";
+window.speechSynthesis.speak(mensaje);
+};
+
+
+window.mostrarCampañas = function () {
+const lista = document.getElementById("listaCampañas");
+lista.innerHTML = "";
+
+
+const campañas = [
+"Vacunación preventiva",
+"Charla de nutrición saludable",
+"Control de hipertensión gratuito"
+];
+
+
+campañas.forEach((c) => {
+const item = document.createElement("li");
+item.textContent = c;
+lista.appendChild(item);
+});
+};
+
+
+window.mostrarResumen = function () {
+const lista = document.getElementById("panelResumen");
+lista.innerHTML = "";
+
+
+const tareas = [
+"Tomar medicamento 8:00 AM",
+"Ejercicio ligero 10:00 AM",
+"Revisar presión arterial",
+];
+
+
+tareas.forEach((t) => {
+const item = document.createElement("li");
+item.textContent = t;
+lista.appendChild(item);
+});
+};
+
+
+window.solicitarAcompañamiento = function () {
+document.getElementById("acompañamientoConfirmacion").textContent =
+"✔ Tu solicitud de acompañamiento fue enviada (simulación)";
+};
+});
 });
