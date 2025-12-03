@@ -287,6 +287,102 @@
       </div>
     </section>
 
+    <div class="demo-card">
+      <div class="demo-header">Reportes de Salud</div>
+      <div class="demo-body">
+        <div style="display: flex; align-items: flex-end; height: 60px; gap: 5px; margin-bottom: 10px;">
+          <div style="width: 30%; background: #ddd; height: 40%;"></div>
+          <div style="width: 30%; background: #C62828; height: 70%;"></div>
+          <div style="width: 30%; background: #212121; height: 50%;"></div>
+        </div>
+        <p style="font-size: 13px;">Estado General: <strong>Estable</strong></p>
+        <button class="btn-demo-outline" onclick="alert('Descargando reporte PDF...')">📄 Descargar PDF</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Contactos Confianza</div>
+      <div class="demo-body">
+        <ul class="lista-actividades">
+          <li>👤 Hijo (Carlos) <span style="color: green;">●</span></li>
+          <li>👤 Doctora Ana <span style="color: green;">●</span></li>
+        </ul>
+        <div style="display: flex; gap: 5px;">
+          <input type="text" placeholder="Nombre" class="demo-input" style="width: 60%;">
+          <input type="tel" placeholder="Tel" class="demo-input" style="width: 35%;">
+        </div>
+        <button class="btn-demo" onclick="alert('Contacto añadido exitosamente.')">Añadir</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Soporte Técnico</div>
+      <div class="demo-body">
+        <p style="font-size: 14px;">¿Tienes problemas con la app?</p>
+        <textarea class="demo-input" placeholder="Describe el problema..." rows="2"></textarea>
+        <button class="btn-demo-alert" onclick="alert('Tu reporte ha sido enviado. Un técnico te contactará.')">Enviar Reporte</button>
+      </div>
+    </div>
+
+    <div class="demo-card" style="text-align: center;">
+      <div class="demo-header">Mis Logros</div>
+      <div class="demo-body">
+        <div style="font-size: 40px;">🏆</div>
+        <h4 style="margin: 5px 0;">¡Caminata 5K!</h4>
+        <p style="font-size: 13px; color: #666;">Completado el 12 Nov</p>
+        <button class="btn-demo" onclick="alert('Publicado en tu muro comunitario')">Compartir Logro</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Campañas Cercanas</div>
+      <div class="demo-body">
+        <div style="background: #eee; height: 80px; display: flex; align-items: center; justify-content: center; border-radius: 6px; margin-bottom: 10px;">
+          🗺️
+        </div>
+        <div class="evento-salud">
+          📍 <strong>Control de Presión</strong>
+          <br><small>A 500m de tu ubicación</small>
+        </div>
+        <button class="btn-demo-outline" onclick="alert('Calculando ruta...')">Ver Ruta</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Historial Actividades</div>
+      <div class="demo-body">
+        <ul class="lista-actividades">
+          <li><span>✅ Yoga</span> <small>10/11</small></li>
+          <li><span>✅ Pintura</span> <small>12/11</small></li>
+          <li><span>✅ Baile</span> <small>14/11</small></li>
+        </ul>
+        <button class="btn-small" onclick="alert('Mostrando mes completo')">Ver todo el mes</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Talleres Virtuales</div>
+      <div class="demo-body">
+        <div class="notificacion-medicina" style="border-left-color: #C62828;">
+          💻 <strong>Uso de Smartphone</strong>
+          <br>Hoy, 4:00 PM (Zoom)
+        </div>
+        <button class="btn-demo" onclick="alert('Abriendo enlace de la videollamada...')">Ingresar al Taller</button>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-header">Chat Voluntario</div>
+      <div class="demo-body">
+        <div style="background: #f1f1f1; padding: 5px; border-radius: 5px; font-size: 13px; align-self: flex-start;">Hola, ¿cómo te sientes hoy?</div>
+        <div style="background: #ffebee; padding: 5px; border-radius: 5px; font-size: 13px; align-self: flex-end;">¡Hola! Me siento con mucha energía.</div>
+        <div style="display: flex; gap: 5px; margin-top: 5px;">
+          <input type="text" placeholder="Escribe..." class="demo-input">
+          <button class="btn-small" onclick="alert('Mensaje enviado')">➤</button>
+        </div>
+      </div>
+    </div>
+
     <section id="contact" class="seccion-formulario">
       <div class="container">
         <h2>Contáctanos</h2>
