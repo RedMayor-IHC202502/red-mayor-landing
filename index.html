@@ -160,6 +160,87 @@
       </div>
     </section>
 
+    <section id="demo-app" class="seccion-demo">
+      <div class="container">
+        <h2>Demo Interactiva - Funcionalidades de Red Mayor</h2>
+        <p>Explora cómo funcionan algunas de las características clave.</p>
+
+        <div class="hu-card" id="hu-001">
+          <h3> Agendar Consulta Médica</h3>
+          <button class="btn-hu" onclick="openModal('modalCita')">Agendar Consulta</button>
+        </div>
+
+        <div class="modal" id="modalCita">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal('modalCita')">&times;</span>
+            <h3>Agendar Cita Médica</h3>
+
+            <label>Especialidad:</label>
+            <select>
+              <option>Medicina General</option>
+              <option>Psicología</option>
+              <option>Geriatría</option>
+            </select>
+
+            <label>Fecha:</label>
+            <input type="date" />
+
+            <label>Hora:</label>
+            <input type="time" />
+
+            <button onclick="confirmarCita()">Confirmar</button>
+            <p id="confirmacionCita"></p>
+          </div>
+        </div>
+
+        <div class="hu-card" id="hu-002">
+          <h3> Recordatorios de Medicación</h3>
+          <input type="text" id="medicamento" placeholder="Medicamento" />
+          <input type="time" id="horaMedicamento" />
+          <button onclick="agregarRecordatorio()">Guardar</button>
+          <ul id="listaRecordatorios"></ul>
+        </div>
+
+        <div class="hu-card" id="hu-004">
+          <h3> Crear Perfil del Adulto Mayor</h3>
+          <input id="nombrePerfil" placeholder="Nombre" />
+          <input id="edadPerfil" type="number" placeholder="Edad" />
+          <button onclick="crearPerfil()">Crear Perfil</button>
+          <div id="perfilCreado"></div>
+        </div>
+
+        <div class="hu-card" id="hu-005">
+          <h3> Actividades Comunitarias</h3>
+          <button onclick="inscribirActividad()">Ver Actividades</button>
+          <p id="confirmacionActividad"></p>
+        </div>
+
+        <div class="hu-card" id="hu-010">
+          <h3> Modo Voz</h3>
+          <button onclick="leerOpciones()">Activar Voz</button>
+        </div>
+
+        <div class="hu-card" id="hu-012">
+          <h3> Campañas de Salud</h3>
+          <button onclick="mostrarCampañas()">Mostrar Campañas</button>
+          <ul id="listaCampañas"></ul>
+        </div>
+
+        <div class="hu-card" id="hu-015">
+          <h3> Resumen Diario</h3>
+          <button onclick="mostrarResumen()">Ver Resumen</button>
+          <ul id="panelResumen"></ul>
+        </div>
+
+        <div class="hu-card" id="hu-016">
+          <h3>Solicitar Acompañamiento</h3>
+          <button onclick="solicitarAcompañamiento()">Solicitar</button>
+          <p id="acompañamientoConfirmacion"></p>
+        </div>
+      </div>
+    </section>
+
+
     <section id="testimonials" class="seccion-testimonios">
       <div class="container">
         <h2>Lo que Dicen Nuestros Usuarios</h2>
